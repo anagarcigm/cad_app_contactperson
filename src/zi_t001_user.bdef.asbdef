@@ -1,0 +1,14 @@
+implementation unmanaged;
+
+define behavior for ZI_T001_USER alias t001_user
+implementation in class ZBP_I_T001_USER unique
+//late numbering
+//lock master
+//authorization master
+
+{
+  field (features : instance ) bukrs;
+  create;
+  update;
+  delete;
+}
