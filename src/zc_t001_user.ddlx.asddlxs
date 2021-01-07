@@ -1,0 +1,53 @@
+@Metadata.layer: #CUSTOMER
+annotate view ZC_T001_USER
+    with 
+{    @UI.facet: [
+           
+          {
+                  id: 'Root_entity',
+                  type: #COLLECTION,
+                  position: 10,
+                  label: 'Contact User'
+                  } ,
+                  {
+                  type: #LINEITEM_REFERENCE,
+                  position: 20,
+                  parentId: 'Root_entity',
+                  isSummary: true,
+                  isPartOfPreview: true
+                  }
+         
+         ]
+  
+  @EndUserText.label: 'Comp. Cd.'
+  @UI.selectionField: [{position: 10}]
+  @UI.lineItem: [{position:10 , label: 'Company', importance:#HIGH }]  
+  @UI.identification: [{ position:10, label: 'Company Code' }]
+  bukrs;
+    
+  @EndUserText.label: 'PersonalN.'
+  @UI.lineItem: [{position:20 , label: 'Person. Number'}]  
+  @UI.identification: [{ position:20, label: 'Person. Number' }]
+  pernr;
+  
+  @EndUserText.label: 'Email'
+  @UI.lineItem: [{position:30 , label: 'Email'}]  
+  @UI.identification: [{ position:30, label: 'Email' }]
+  smtp_addr;
+  
+   @EndUserText.label: 'Phone'
+   @UI.lineItem: [{position:40 , label: 'Phone Number'}]  
+   @UI.identification: [{ position:40, label: 'Phone Number' }]
+   mob_number;
+  
+     @EndUserText.label: 'Twitter'
+   @UI.lineItem: [{position:40 , label: 'Twitter User'}]  
+   @UI.identification: [{ position:40, label: 'Twitter User' }]
+   twitter;
+   
+      @EndUserText.label: 'Linkedin E.'
+   @UI.lineItem: [{position:40 , label: 'Linkedin Email'}]  
+   @UI.identification: [{ position:40, label: 'Linkedin Email' }]
+   linkedin;
+    
+}

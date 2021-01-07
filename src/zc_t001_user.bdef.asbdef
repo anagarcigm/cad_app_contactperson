@@ -1,0 +1,8 @@
+projection;
+
+define behavior for ZC_T001_USER alias t001_user
+{
+  use create;
+  use update;
+  use delete;
+}
