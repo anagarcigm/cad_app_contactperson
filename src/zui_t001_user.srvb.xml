@@ -6,7 +6,7 @@
     <METADATA>
      <NAME>ZUI_T001_USER</NAME>
      <VERSION>active</VERSION>
-     <DESCRIPTION>Service Binding T001_USER</DESCRIPTION>
+     <DESCRIPTION>Service Binding</DESCRIPTION>
     </METADATA>
     <CONTENT>
      <BIND_TYPE_IMPL>
