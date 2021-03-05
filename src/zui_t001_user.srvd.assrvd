@@ -1,4 +1,0 @@
-@EndUserText.label: 'Service definition ZCAD_T001_USER'
-define service ZUI_T001_USER {
-  expose ZC_T001_USER;
-}
